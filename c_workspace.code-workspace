@@ -6,7 +6,12 @@
 	],
 	"settings": {
 		"files.associations": {
-			"MACCV.C": "cpp"
+			"MACCV.C": "cpp",
+			"MACRMT.C": "cpp",
+			"ADI.C": "cpp",
+			"BVP.C": "cpp",
+			"WAVE.C": "cpp",
+			"MACRM.C": "cpp"
 		}
 	}
 }
