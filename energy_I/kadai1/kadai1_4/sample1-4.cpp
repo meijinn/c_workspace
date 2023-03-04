@@ -54,7 +54,6 @@ int main()
       ;
     strncpy(fname[i], buff, j - 1);
   }
-  strcpy(fname[9], "UVT.txt");
 
   out_11 = fopen(fname[1], "wb");  /*Uの計算結果出力用ファイルオープン*/
   out_12 = fopen(fname[2], "wb");  /*Vの計算結果出力用ファイルオープン*/

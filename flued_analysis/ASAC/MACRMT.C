@@ -21,8 +21,6 @@ int main()
 		x3, x4, y1, y2, y3, y4;
 	FILE *fp17;
 
-	re = 200;
-
 	printf( "DT,RE,AR,LM,BB (0.01,40,20,400,0.98) \n" );
 	scanf( "%f,%f,%f,%d,%f", &dt, &re, &ar, &lm, &bb );
 	printf( "JA,JB (17,5) \n");
@@ -251,7 +249,7 @@ L_331:
 	out( t, &i21, &j21 );
 	printf( "\n" );
 	out( q, &i21, &j21 );
-	fp17 = fopen( "file.17", "w" );
+	fp17 = fopen( "file17.csv", "w" );
 	for( j = 1; j <= j21; j++ ){
 		for( i = 1; i <= i21; i++ ){
 			fprintf( fp17, "%f %f %f ", u[i][j], v[i][j], q[i][j] );
